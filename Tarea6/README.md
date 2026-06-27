@@ -26,11 +26,11 @@ Luego de eso usar
 ```bash
 ./awesome-simulator programa.bin
 ```
-Son implementaciones de 
-lui x8, 0x12345
-addi x9, x0, 5
-ori x10, x9, 10
-slli x11, x10, 4
+Son implementaciones de:
+* lui x8, 0x12345
+* addi x9, x0, 5
+* ori x10, x9, 10
+* slli x11, x10, 4
 
 Y se verifica con
 ```bash
