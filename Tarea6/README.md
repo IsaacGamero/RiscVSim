@@ -19,7 +19,7 @@ Este proyecto consiste en un simulador funcional de la arquitectura RISC-V de 32
 ## Instrucciones de Uso
 
 ### Compilación
-Para compilar el simulador, utiliza el siguiente comando en la terminal:
+Para compilar el simulador, utilizar el siguiente comando en la terminal:
 ```bash
 g++ -O3 main.cpp -o awesome-simulator
 ```
