@@ -1,25 +1,24 @@
 # Informe del simulador implementado
 
 ## Descripción
-Este proyecto consiste en un simulador funcional de la arquitectura RISC-V de 32 bits, desarrollado para el curso de Arquitectura de Computadores. El programa permite cargar binarios crudos, ejecutar instrucciones paso a paso e inspeccionar el estado del procesador.
+Tarea 6 de Arquitectura de computadoras: Un simulador funcional de la arquitectura RISC-V de 32 bits. El programa permite cargar binarios, ejecutar instrucciones paso a paso e inspeccionar el estado del procesador.
 
 ## Lenguaje
 * **Lenguaje:** C++
 
 ## Características Principales
 * **Ciclo de Instrucción:** Implementación del ciclo *Fetch-Decode-Execute*.
-* **Carga de Binarios:** Soporte para leer archivos en formato binario crudo (little-endian) directamente en la dirección `x0`.
-* **Interfaz CLI:** Interfaz interactiva de línea de comandos.
+* **Interfaz:** Interfaz interactiva de línea de comandos
 * **Comandos soportados:**
-    * `step`: Ejecuta la siguiente instrucción.
-    * `pc`: Muestra el valor actual del contador de programa.
-    * `regs <xN>`: Muestra el valor de registros específicos.
-    * `exit`: Finaliza la simulación.
+    * `step`: Ejecuta la siguiente instrucción
+    * `pc`: Muestra el valor actual del contador de programa
+    * `regs <xN>`: Muestra el valor de registros específicos
+    * `exit`: Finaliza la simulación
 
 ## Instrucciones de Uso
 
 ### Compilación
-Para compilar el simulador, utilizar el siguiente comando en la terminal:
+Para compilar el simulador utilizar el siguiente comando en la terminal:
 ```bash
 g++ -O3 main.cpp -o awesome-simulator
 ```
